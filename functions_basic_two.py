@@ -2,9 +2,9 @@
 def countdown(num):
     arr = []
     for x in range(num, -1, -1):
-        arr.append(x)
+        arr += [x]
     return arr
-countdown(5)
+print(countdown(5))
 # Example: countdown(5) should return [5,4,3,2,1,0]
 
 # Print and Return - Create a function that will receive a list with two numbers. Print the first value and return the second.
