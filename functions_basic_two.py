@@ -24,7 +24,7 @@ first_plus_length([1,2,3,4,5])
 def values_greater_than_second(li):
     li_second = []    
     count = 0
-    if len(list) < 2:
+    if len(li) < 2:
         return False
     else:
         for x in range(0, len(li)):
